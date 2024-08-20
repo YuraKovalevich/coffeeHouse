@@ -1,0 +1,103 @@
+.product__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px;
+}
+.product__item {
+    opacity: 100%;
+    grid-column: span 3;
+}
+.product__listItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid #c1b6ad;
+    border-radius: 40px;
+    outline: none;
+    background: transparent;
+}
+.productListBtn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid #C1B6AD;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent
+}
+.productListBtn:hover .listIcon {
+    transform: scale(1);
+    transition: transform 1s ease;
+}
+.productListBtn:focus-visible .listIcon {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.productImg {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 40px;
+    font-size: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.listIcon {
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    -o-transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+    object-fit: cover;
+}
+.productListProperty {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 20px 20px 20px 20px;
+    min-height: 196px;
+}
+.productListName {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403f3d;
+}
+
+.productListDesc {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: auto;
+    color: #403f3d;
+}
+
+.productListPrice {
+    font-family: "Inter", sans-serif;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403f3d;
+}

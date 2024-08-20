@@ -1,0 +1,34 @@
+.about{
+    margin-top: 80px;
+}
+.about__container{
+
+}
+.about__title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75px;
+    color: #403F3D;
+}
+.about__title span {
+    font-style: italic;
+    color: #B0907A;
+}
+.about__wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 39px);
+    gap: 40px;
+}
+.about__photo:nth-child(1){
+    grid-row: 1 / span 8;
+}
+.about__photo:nth-child(2){
+    grid-row: 1 / span 6;
+}
+.about__photo:nth-child(3){
+    grid-row: 9 / span 6;
+}
+.about__photo:nth-child(4){
+    grid-row: 7 / span 8;
+}

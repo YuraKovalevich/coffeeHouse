@@ -1,0 +1,32 @@
+.favorite{
+    margin-bottom: 80px;
+}
+.favoriteContainer{
+    position: relative;
+}
+.favoriteTitle{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+    margin-bottom: 40px ;
+}
+.favoriteTitle > span{
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #B0907A;
+}
+.coffeeSlider{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+

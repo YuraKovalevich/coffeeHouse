@@ -1,0 +1,44 @@
+.enjoy{
+    position: relative;
+    margin-bottom: 100px;
+}
+.enjoy__text{
+    padding: 100px 0 100px 100px ;
+}
+.enjoy__text >*:not(:last-child){
+    margin-bottom: 40px;
+}
+.enjoy__title{
+    position: relative;
+    max-width: 530px;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 105%;
+    color: #E1D4C9;
+}
+.titleItalic{
+    font-style: italic;
+    color: #B0907A;
+}
+.enjoy__description{
+    position: relative;
+    max-width: 530px;
+    color: #E1D4C9;
+    font-size: 16px;
+    line-height: 24px;
+}
+.enjoy__menu{
+    cursor: pointer;
+}
+.menuLink__text{
+    background-color: #E1D4C9;
+    position: relative;
+    padding: 20px 78px;
+    border-radius: 100px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #403F3D;
+}
+

@@ -1,0 +1,87 @@
+.footer{
+    padding-bottom: 40px;
+}
+.footer__container{
+    margin: 0 auto;
+}
+.footer__content{
+    display: flex;
+    padding: 100px;
+    border-radius: 40px;
+    background-color: #665F55;
+}
+.contentMedia{
+    max-width: 530px;
+    margin-right: 143px;
+}
+.contentMedia :not(:last-child){
+}
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #E1D4C9;
+    margin:0 0 40px 0;
+}
+.title span{
+    font-style: italic;
+    color: #B0907A;
+}
+.socialList{
+    display: flex;
+
+}
+.listItem :not(:last-child){
+    margin-bottom: 20px;
+}
+.listLink{
+    display: block;
+    margin-right: 12px;
+    padding: 17px;
+    border: 1px solid #E1D4C9;
+    border-radius: 100px;
+    color: #E1D4C9;
+    background-color: transparent;
+    outline: none;
+    transition: border-color 0.5s ease, background-color 0.5s ease, color 0.5s ease;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    color: inherit;
+    fill: transparent;
+    stroke: currentColor;
+}
+.footer__contact{
+    padding: 34px 0;
+}
+.footer__topic{
+    display: block;
+    margin-bottom: 40px;
+    color: #E1D4C9;
+}
+.footer__contactList{
+    list-style: none;
+}
+.contactLink{
+    position: relative;
+    display: inline-flex;
+    color: #E1D4C9;
+}
+
+.contactIcon{
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    color: inherit;
+    fill: transparent;
+    stroke: currentColor;
+}
+.linkText{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: inherit;
+}
+

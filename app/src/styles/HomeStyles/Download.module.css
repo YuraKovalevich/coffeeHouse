@@ -1,0 +1,78 @@
+.download{
+    margin-bottom: 93px;
+}
+.download__container{
+    display: flex;
+    justify-content: space-between;
+}
+.download__content{
+    margin-right: 40px;
+    padding-top: 140px;
+}
+.content__title{
+    margin-bottom: 40px;
+    max-width: 630px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+}
+.content__title span{
+    font-style: italic;
+    color: #B0907A;
+}
+.content__description{
+    margin-bottom: 40px;
+    max-width: 630px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #403F3D;
+}
+.content__btns{
+    display: flex;
+}
+.content__btns :not(:last-child){
+    margin-right: 20px;
+}
+.btn{
+    display: flex;
+    padding: 12px 58px 10px 19px;
+    border: 1px solid #403F3D;
+    border-radius: 100px;
+    color: #403F3D;
+    background-color: transparent;
+    outline: none;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+.link{
+    display: flex;
+}
+.appLink{
+    margin-right: 8px;
+    width: 36px;
+    height: 36px;
+    color: inherit;
+    fill: currentColor;
+}
+
+.appLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.appLinkText{
+    display: block;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #403F3D;
+}
+.appLinkTopic{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #403F3D;
+}

@@ -1,0 +1,135 @@
+.slider {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.slide {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    overscroll-behavior: auto;
+}
+
+.slideHidden {
+    display: none;
+}
+
+.coffeeList {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 580px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.coffeeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coffeeName {
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 480px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+}
+
+.coffeeDescription {
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 480px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #403F3D;
+}
+
+.coffeePrice {
+    text-align: center;
+    max-width: 480px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+}
+
+.navBtnRight {
+    position: absolute;
+    border: 1px solid #403F3D;
+    border-radius: 100px;
+    outline: none;
+    background-color: #E1D4C9;
+    top: 50%;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    transform: rotate(180deg);
+}
+
+.navBtnRight,
+.navBtnLeft {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBtnLeft {
+    position: absolute;
+    outline: none;
+    border: 1px solid #403F3D;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    top: 50%;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+.nav {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.paginationSliderBtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.indicator {
+    position: relative;
+    width: 50px;
+    height: 4px;
+    border-radius: 100px;
+    background-color: #665F55;
+    cursor: pointer;
+}
+
+.indicatorInactive {
+    background-color: #C1B6AD;
+    width: 50px;
+    height: 4px;
+    border-radius: 100px;
+    cursor: pointer;
+}
