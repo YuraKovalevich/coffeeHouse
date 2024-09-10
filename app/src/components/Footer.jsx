@@ -40,19 +40,19 @@ const Footer = () => {
                             Contact us
                         </h2>
                         <ul className={styles.footer__contactList}>
-                            <li className={styles.listItem}>
+                            <li className={styles.linkItem}>
                                 <Link className={styles.contactLink} to='/'>
                                     <IconPlace className={styles.contactIcon}/>
                                     <span className={styles.linkText}>8558 Green Rd., LA</span>
                                 </Link>
                             </li>
-                            <li className={styles.listItem}>
+                            <li className={styles.linkItem}>
                                 <Link className={styles.contactLink} to='/'>
                                     <IconPhone className={styles.contactIcon}/>
                                     <span className={styles.linkText}>+1 (603) 555-0123</span>
                                 </Link>
                             </li>
-                            <li className={styles.listItem}>
+                            <li className={styles.linkItem}>
                                 <Link className={styles.contactLink} to='/'>
                                     <IconClock className={styles.contactIcon}/>
                                     <span className={styles.linkText}>Mon-Sat: 9:00 AM - 23:00 PM</span>
