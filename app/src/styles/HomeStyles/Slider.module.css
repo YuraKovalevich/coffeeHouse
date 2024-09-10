@@ -93,6 +93,13 @@
     align-items: center;
 }
 
+.navBtnLeft:hover,
+.navBtnRight:hover {
+    background-color: #f0f0f0; 
+}
+
+
+
 .navBtnLeft {
     position: absolute;
     outline: none;
@@ -104,6 +111,7 @@
     width: 60px;
     height: 60px;
 }
+
 
 .nav {
     max-height: 50%;

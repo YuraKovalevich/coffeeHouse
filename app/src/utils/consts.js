@@ -10,9 +10,10 @@ export const TEA = 'tea'
 export const DESSERTS = 'desserts'
 
 export const SET_INITIAL_CASH = 'SET_INITIAL_CASH'
-export const RESET_CASH = 'RESET_CASH'
-
-export const ADD_CASH = 'ADD_CASH'
-export const REMOVE_CASH = 'REMOVE_CASH'
+export const ADD_TO_BASKET = 'ADD_TO_BASKET'
+export const UPDATE_BASKET = 'UPDATE_BASKET'
+export const ADD_ONE = 'addOne'
+export const ADD_TWO = 'addTwo'
+export const ADD_THREE='addThree'
 
 

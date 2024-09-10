@@ -41,4 +41,26 @@
     line-height: 150%;
     color: #403F3D;
 }
+.menuLink__icon{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 20px;
+    height: 20px;
+    stroke-width: 1.5px;
+    color: inherit;
+    fill: transparent;
+    stroke: currentColor;
+}
+.menuLink__iconHidden{
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    opacity: 0;
+    -webkit-transform: translateX(-15px);
+    -ms-transform: translateX(-15px);
+    transform: translateX(-15px);
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
 

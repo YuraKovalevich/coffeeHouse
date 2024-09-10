@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from "../assests/icons/Logo";
 import MenuLogo from "../assests/icons/MenuLogo";
 import styles from '../styles/HomeStyles/Navbar.module.css'
-import {STORE_ROUTE} from "../utils/consts";
+import {BASKET_ROUTE, STORE_ROUTE} from "../utils/consts";
 
 
 function Navbar() {
@@ -25,7 +25,7 @@ function Navbar() {
                             <Link to="/" className={styles.menu__link}>Mobile app</Link>
                         </li>
                         <li className={styles.menu__item}>
-                            <Link to="/" className={styles.menu__link}>Contact us</Link>
+                            <Link to={BASKET_ROUTE} className={styles.menu__link}>Basket</Link>
                         </li>
                     </ul>
                 </nav>

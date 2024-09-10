@@ -1,0 +1,113 @@
+.basketContainer {
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.basketTitle {
+    font-size: 28px;
+    font-weight: 600;
+    color: #403F3D;
+    margin-bottom: 20px;
+}
+
+.basketList {
+    list-style: none;
+    padding: 0;
+}
+
+.basketItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C1B6AD;
+    padding: 20px 0;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.itemImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.itemDetails {
+    flex-grow: 1;
+}
+
+.itemName {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #403F3D;
+    margin-bottom: 8px;
+}
+
+.itemSize {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6B69;
+    margin-bottom: 12px;
+}
+
+.basketActions {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.itemPriceSection {
+    display: flex;
+    align-items: center;
+}
+
+.itemPrice {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #403F3D;
+    margin-right: 20px;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.deleteButton:hover {
+    transform: scale(1.1);
+}
+
+.deleteIcon {
+    width: 20px;
+    height: 20px;
+    fill: #C1B6AD;
+    transition: fill 0.3s ease;
+}
+
+.deleteButton:hover .deleteIcon {
+    fill: #403F3D;
+}
+.itemAdditives {
+
+    margin-top: 10px;
+    
+}
+
+.additives {
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C6B69;
+}
+

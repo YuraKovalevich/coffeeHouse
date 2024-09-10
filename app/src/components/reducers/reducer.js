@@ -1,19 +1,22 @@
-import { ADD_CASH, REMOVE_CASH, RESET_CASH, SET_INITIAL_CASH } from "../../utils/consts";
+import {ADD_TO_BASKET, SET_INITIAL_CASH, UPDATE_BASKET} from "../../utils/consts";
 
 const defaultState = {
-    cash: 0
+    cash: 0,
+    basket:[]
 };
 
 export const reducer = (state = defaultState, action) => {
     switch (action.type) {
         case SET_INITIAL_CASH:
             return { ...state, cash: action.payload };
-        case ADD_CASH:
-            return { ...state, cash: state.cash + action.payload };
-        case REMOVE_CASH:
-            return { ...state, cash: state.cash - action.payload };
-        case RESET_CASH:
-            return { ...state, cash: state.cash};
+        case UPDATE_BASKET:
+            return {
+                ...state,
+                basket: action.payload,
+            };
+
+        case ADD_TO_BASKET:
+            return {...state, basket: [...state.basket, action.payload]}
         default:
             return state;
     }

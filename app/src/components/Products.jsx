@@ -17,7 +17,7 @@ const Products = ({category, onClick}) => {
                         <span className={styles.productListProperty}>
                             <span className={styles.productListName}>{product.name}</span>
                             <span className={styles.productListDesc}>{product.description}</span>
-                            <span className={styles.productListPrice}>{product.price}</span>
+                            <span className={styles.productListPrice}>{product.price} р.</span>
                         </span>
                     </button>
                 </div>

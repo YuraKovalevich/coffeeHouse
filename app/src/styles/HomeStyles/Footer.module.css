@@ -14,8 +14,7 @@
     max-width: 530px;
     margin-right: 143px;
 }
-.contentMedia :not(:last-child){
-}
+
 .title{
     font-size: 60px;
     font-weight: 600;
@@ -34,6 +33,15 @@
 .listItem :not(:last-child){
     margin-bottom: 20px;
 }
+.listLink:hover{
+    background-color: #E1D4C9;
+    
+}
+.listItem:hover svg path {
+    stroke: #665F55;
+    
+}
+
 .listLink{
     display: block;
     margin-right: 12px;

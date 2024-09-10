@@ -134,7 +134,7 @@
     transition: color 0.5s ease;
 }
 
-.prise {
+.price {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;

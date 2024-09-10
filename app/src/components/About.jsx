@@ -12,10 +12,10 @@ const About = () => {
             <div className={styles.about__container}>
                 <h2 className={styles.about__title}>Resource is <span>the perfect and cozy place </span>where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
                 <div className={styles.about__wrapper}>
-                    <picture className={styles.about__photo}><img src={img1} alt=""/></picture>
-                    <picture className={styles.about__photo}><img src={img3} alt=""/></picture>
-                    <picture className={styles.about__photo}><img src={img2} alt=""/></picture>
-                    <picture className={styles.about__photo}><img src={img4} alt=""/></picture>
+                    <picture className={styles.about__photo}><img className={styles.about__img} src={img1} alt=""/></picture>
+                    <picture className={styles.about__photo}><img className={styles.about__img} src={img3} alt=""/></picture>
+                    <picture className={styles.about__photo}><img className={styles.about__img} src={img2} alt=""/></picture>
+                    <picture className={styles.about__photo}><img className={styles.about__img} src={img4} alt=""/></picture>
                 </div>
             </div>
         </div>

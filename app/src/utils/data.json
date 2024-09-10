@@ -46,15 +46,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -82,15 +82,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -98,6 +98,7 @@
     {
       "src": "assests/images/coffee/coffee-3.jpg",
       "alt": "1st image",
+      "name": "Honey raf",
       "description": "Espresso with frothed milk, cream and aromatic honey",
       "price": "5.50",
       "category": "coffee",
@@ -117,15 +118,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -153,15 +154,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -169,6 +170,7 @@
     {
       "src": "assests/images/coffee/coffee-5.jpg",
       "alt": "1st image",
+      "name":"Espresso",
       "description": "Classic black coffee",
       "price": "4.50",
       "category": "coffee",
@@ -188,15 +190,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -224,15 +226,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -260,15 +262,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -296,15 +298,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Cinnamon",
+          "title": "Cinnamon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -334,15 +336,15 @@
       },
       "additives": {
        "addOne": {
-          "name": "Sugar",
+          "title": "Sugar",
           "addPrice": "0.50"
         },
         "addTwo":{
-          "name": "Lemon",
+          "title": "Lemon",
           "addPrice": "0.50"
         },
         "addThree":{
-          "name": "Syrup",
+          "title": "Syrup",
           "addPrice": "0.50"
         }
       }
@@ -370,15 +372,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Sugar",
+           "title": "Sugar",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Lemon",
+           "title": "Lemon",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Syrup",
+           "title": "Syrup",
            "addPrice": "0.50"
          }
        }
@@ -406,15 +408,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Sugar",
+           "title": "Sugar",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Lemon",
+           "title": "Lemon",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Syrup",
+           "title": "Syrup",
            "addPrice": "0.50"
          }
        }
@@ -442,15 +444,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Sugar",
+           "title": "Sugar",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Lemon",
+           "title": "Lemon",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Syrup",
+           "title": "Syrup",
            "addPrice": "0.50"
          }
        }
@@ -480,15 +482,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -516,15 +518,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -552,15 +554,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -588,15 +590,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -624,15 +626,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -660,15 +662,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -696,15 +698,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
@@ -732,15 +734,15 @@
       },
       "additives": {
         "addOne": {
-           "name": "Berries",
+           "title": "Berries",
            "addPrice": "0.50"
          },
          "addTwo":{
-           "name": "Nuts",
+           "title": "Nuts",
            "addPrice": "0.50"
          },
          "addThree":{
-           "name": "Jam",
+           "title": "Jam",
            "addPrice": "0.50"
          }
        }
